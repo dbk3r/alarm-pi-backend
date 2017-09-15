@@ -1,0 +1,16 @@
+{
+  "uploadOnSave": true,
+  "useAtomicWrites": false,
+  "deleteLocal": false,
+  "hostname": "192.168.0.211",
+  "port": "22",
+  "target": "/var/lib/scripts/alarm-pi",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "root",
+  "password": "nulleins",
+  "watch": [],
+  "transport": "scp"
+}
