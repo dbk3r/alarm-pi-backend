@@ -8,6 +8,7 @@ from db_functions import *
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
 
+
 gpio_out = [3,5,7,29,31,24,26,19,21,23]
 gpio_in = [8,10,12]
 for gpo in gpio_out:
